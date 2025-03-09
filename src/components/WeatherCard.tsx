@@ -6,8 +6,9 @@ interface WeatherCardProps {
 }
 
 export function WeatherCard({ data }: WeatherCardProps) {
+  console.log(data)
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-md">
+    <div className="bg-white rounded-xl shadow-lg p-6 w-full  ">
       <div className="flex items-center justify-between mb-4">
         <div>
           <h2 className="text-2xl font-bold text-gray-800">

@@ -26,7 +26,7 @@ Before running this project, you need to:
    ```
 3. Create a `.env` file in the root directory:
    ```bash
-   cp .env.example .env
+   cp .env
    ```
 4. Add your OpenWeatherMap API key to the `.env` file:
    ```
